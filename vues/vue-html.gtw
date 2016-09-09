@@ -113,7 +113,7 @@ un fichier d'un module, par exemple se trouvant dans un sous-répertoire
 
 <code php>
    $rep = $this->getResponse('basichtml');
-   $rep->htmlFile = jApp::coord()->getModulePath('unModule'). 'static/hello.php';
+   $rep->htmlFile = jApp::getModulePath('unModule'). 'static/hello.php';
 </code>
 
 
