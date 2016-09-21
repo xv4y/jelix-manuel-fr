@@ -3,6 +3,7 @@
 
 Dans les versions précedentes de jelix (<= 1.3), il existait des variables
 globales contenant des objets essentiels de Jelix.
+Maintenant ces objets sont accessibles via la [[classes-utiles/japp|classe utilitaire jApp]].
 
 ===== $gJConfig =====
 
